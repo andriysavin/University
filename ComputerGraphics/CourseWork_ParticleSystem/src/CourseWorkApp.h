@@ -1,0 +1,25 @@
+//////////////////////////////////////////////////////////////////////////
+#pragma once
+//////////////////////////////////////////////////////////////////////////
+#include "App.h"
+#include "AppWnd.h"
+#include <memory>
+using namespace std;
+//////////////////////////////////////////////////////////////////////////
+class AppWnd;
+class CourseWorkApp : public App
+{
+public:
+	virtual BOOL		OnInitApp	();
+	virtual void		OnIdle();
+    
+						CourseWorkApp(
+							HINSTANCE hInstance,
+							HINSTANCE hPrevInstance,
+							LPSTR lpCmdLine,
+							int  nCmdShow);
+	virtual				~CourseWorkApp(void);
+private:
+	AppWnd* m_pAppWnd = NULL;
+};
+//////////////////////////////////////////////////////////////////////////

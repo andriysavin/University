@@ -1,0 +1,16 @@
+TimeToEmit 			0.0					 
+DiffuseColor                	255 100 100 100  
+Fade				2.0
+ParticleLifeTime		13.0
+MaxParticleLifeTime		16.0	
+RandomParticleLifeTime		0.0
+Velocity				0.3 1.5 0
+RandomVelocity			2.0
+Quantity				570
+RandomQuantity			0.5
+Origin				10.5 48.7 70
+Gravity				3.0	
+DisperseAngle			40	
+ParticleSize			1.3
+SRCBLEND			5
+DSTBLEND			6
