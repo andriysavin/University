@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab1MatrixTransforms", "Lab1MatrixTransforms.vcxproj", "{4BF8EDF0-B294-4700-82B3-74E74B45264B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF8EDF0-B294-4700-82B3-74E74B45264B}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{4BF8EDF0-B294-4700-82B3-74E74B45264B}.Debug|ARM64.Build.0 = Debug|ARM64
+		{4BF8EDF0-B294-4700-82B3-74E74B45264B}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BF8EDF0-B294-4700-82B3-74E74B45264B}.Debug|x86.Build.0 = Debug|Win32
+		{4BF8EDF0-B294-4700-82B3-74E74B45264B}.Release|ARM64.ActiveCfg = Release|ARM64
+		{4BF8EDF0-B294-4700-82B3-74E74B45264B}.Release|ARM64.Build.0 = Release|ARM64
+		{4BF8EDF0-B294-4700-82B3-74E74B45264B}.Release|x86.ActiveCfg = Release|Win32
+		{4BF8EDF0-B294-4700-82B3-74E74B45264B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1F4B1D5-5061-418A-B534-7EC3139D70D6}
+	EndGlobalSection
+EndGlobal
