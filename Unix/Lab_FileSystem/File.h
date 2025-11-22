@@ -1,0 +1,33 @@
+//////////////////////////////////////////////////////////////////////////
+#ifndef __FILE_H__
+#define __FILE_H__
+//////////////////////////////////////////////////////////////////////////
+#include "FileSystem.h"
+#include "Utils.h"
+//////////////////////////////////////////////////////////////////////////
+namespace NFileSystem
+{
+	class CFile
+	{
+	public:
+		friend CFileSystem;
+
+		void     Seek(DWORD dwPos);
+		DWORD    Read(void* pData, DWORD dwSize);
+		void     Write(const void* pData, DWORD dwSize);
+		DWORD    Size() { return m_pINode->dwFileSize; }
+		bool     Eof();
+	protected:
+		CFile(ST_INODE* pINode, CFileSystem* pFS);
+		~CFile(void);
+
+	protected:
+		ST_INODE* m_pINode;
+		CFileSystem* m_pFS;
+
+		DWORD	m_dwSeekOffset;
+	};
+}
+//////////////////////////////////////////////////////////////////////////
+#endif // __FILE_H__
+//////////////////////////////////////////////////////////////////////////
